@@ -11,15 +11,3 @@ class MetaSingleton(type):
 class Singleton(metaclass=MetaSingleton):
   pass
 
-
-class Op():
-  pass
-
-
-single = Singleton()
-single1 = Singleton()
-single2 = Op()
-
-
-print(single is single1)
-print(single1 is single2)

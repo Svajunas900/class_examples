@@ -11,16 +11,3 @@ def singleton(cls):
 class Singleton:
   pass
 
-
-class Singleton2:
-  pass
-
-
-single = Singleton()  
-
-single2 = Singleton()
-single3 = Singleton2()
-
-print(single is single2)
-print(single == single2)
-print(single2 is single3)
