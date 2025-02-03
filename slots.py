@@ -7,13 +7,9 @@ class SlotExample():
 slot = SlotExample()
 slot2 = SlotExample()
 
-print(slot.slot_0)
-
 slot.slot_1 = "SLOT_321"
-
-print(slot.slot_1)
 
 # AttributeError
 slot.slot_3 = "SLOT_456"
-print(slot.slot_3)
+
 
